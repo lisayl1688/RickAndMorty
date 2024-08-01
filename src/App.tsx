@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import { useState } from "react";
-import { IRickMorty, Result } from "./Interfaces/IRickMorty";
+import { Result } from "./Interfaces/IRickMorty";
 import { LoadingContext , DataContext } from "./context/context";
 import Header from "./components/Header/Header";
 import Loading from "./pages/Loading/Loading";

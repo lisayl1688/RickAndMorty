@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
-import { IRickMorty, Result } from "../Interfaces/IRickMorty";
+import { Result } from "../Interfaces/IRickMorty";
 
 interface Iloading {
     loading: boolean;
